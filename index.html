@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prototype 2</title>
+  <style>
+  header {
+      background-color: white;
+  }
+  h1{
+    font-size: 35px;
+    margin:0 0 0px;
+  color: black;
+  height: 54px;
+  padding-left: 20px;
+  border-bottom: solid 5px;
+  border-color: yellow;
+  }
+  body {
+    height: 100%;
+  background-color: darkblue;
+  margin: 0;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+  }
+  .line{
+    display: inline-block;
+  }
+  li a{
+    text-decoration: none;
+    color: black;
+    font-family: source sans pro;
+    font-weight: lighter;
+    font-size: 35px;
+    padding-right:20px;
+  }
+  a:hover{
+    color: orange;
+  }
+  .left{
+    padding-left: 250px;
+    padding-right:30px;
+  }
+  .right{
+    padding-right:0px;
+  }
+  .bridge{
+    padding-left: 10px;
+    height: 500px;
+    width: 600px;
+    padding-top: 36px;
+    padding-right: 20px;
+  }
+  .nike{
+    padding-left: 20px;
+    height:40px;
+    padding-top: 11px;
+  }
+  .head{
+    text-decoration: none;
+    color: black;
+    font-family: source sans pro;
+    font-weight: lighter;
+    font-size: 35px;
+  }
+  .topic{
+    color: black;
+display: inline;
+margin: 0 0 0 250px;
+border: black solid 2px;
+border-radius: 20px;
+border-left: 250px;
+}
+footer{
+  border-top: yellow solid 5px;
+  background-color: white;
+ clear: both;
+   height: 50px;
+   text-align: center;
+ }
+ .bridgewrapper{
+   background-color: #b3d4fc;
+   height: 720px;
+ }
+ .bridgetopic{
+//  margin-left: 670px;
+  margin-right:20px;
+   font-size: 20px;
+   color: black;
+   font-family: times new roman;
+   font-style: italic;
+border: black solid;
+padding: 20px 8px 20px 20px;
+border-style: hidden;
+ }
+ figure{
+   float: left;
+ }
+ .bridgetopics{
+   margin-left: 670px;
+   margin-right:20px;
+    font-size: 23px;
+    color: black;
+    font-family: times new roman;
+    font-style: italic;
+ border: black solid 2px;
+ padding: 20px 8px 20px 20px;
+ border-style: hidden;
+ }
+ .players{
+color: black;
+border: none;
+margin: 0px;
+border: white solid 2px;
+background: white;
+text-decoration: none;
+color: black;
+font-family: source sans pro;
+font-weight: lighter;
+font-size: 35px;
+  border-color: yellow;
+  padding-top: 10px;
+ }
+ .only{
+   font-size: 30px;
+ }
+ .cap{
+height: 250px;
+width: 250px;
+padding: 0px 0 50px 0px;
+display: block;
+float: left;
+ }
+ .kep{
+height: 250px;
+width: 250px;
+padding: 0 0 50px 0px;
+display: inline-block;
+ }
+ .bcd{
+   width: 50%;
+   float:left;
+   margin-top: 20px;
+ }
+ .abc{
+width: 50%;
+float:right;
+margin-top: 20px;
+ }
+ .last{
+   float: right;
+   padding-left: 0px;
+   margin-left: 0px;
+ }
+ .p{
+   float: right;
+ }
+ .top{
+   padding-top: 2px;
+ }
+ #more{
+   display: none;
+ }
+ #read{
+   background-color: red;
+   margin: 0px;
+ }
+ #bg{
+   background-color: #b3d4fc;
+   height: 370px;
+ }
+ #ag{
+   background-color: #b3d4fc;
+   height: 560px;
+ }
+ #lg{
+   background-color: #b3d4fc;
+   height: 300px;
+ }
+ button{
+   margin-top: 5px;
+   margin-right: 100px;
+   padding: 0 20px 0 20px;
+      border: black solid 2px;
+      border-radius: 20px;
+ }
+ #btn{
+   margin-left: 0px;
+   margin-right: 0px;
+
+ }
+ #btn1{
+   margin-left: 50px;
+   padding:0 20px 0 20px;
+ }
+ .statsbg{
+   margin:20px 20px 20px 53px;
+   border: black solid 2px;
+   background-color: white;
+   height: 500px;
+   width: 1225px;
+   text-align: center;
+ }
+ #gol{
+   display: none;
+ }
+ #asi{
+   display: none;
+ }
+ #tack{
+   display: none;
+ }
+ #clean{
+   display: none;
+ }
+ #drib{
+   display: none;
+ }
+ #pass{
+   display: none;
+ }
+ .final{
+   color: black;
+   border: none;
+   margin: 20px 0 0 0;
+   border: white solid 2px;
+   background: white;
+   text-decoration: none;
+   color: black;
+   font-family: source sans pro;
+   font-weight: lighter;
+   font-size: 35px;
+     border-color: yellow;
+     padding-top: 10px;
+ }
+ table{
+   padding-top: 20px;
+   border-spacing: 5px;
+ }
+ td{
+   text-align: center;
+ }
+ table, th, td {
+  border: 3px solid black;
+}
+.finale{
+  text-align: center;
+  margin-right: 0px;
+}
+    </style>
+<!--------------------------------------START OF BODY-------------------------------------------->
+</head>
+<body>
+  <header>
+<h1><a class="head" href="https://www.chelseafc.com/en/landing-pages/misc/get--the-chelsea-fc-mobile-app-now" title="The Official Chelsea F.C Site.">Chelsea F.C.</a>
+<a href="https://www.nike.com" title="Go To Nike"><img class="nike" src="nike.jpg"></a>
+  <img src="chelsea.gif">
+<li class="line"><a  class="left" href="https://www.chelseafc.com/en/landing-pages/misc/get--the-chelsea-fc-mobile-app-now" title="The Official Chelsea F.C Site."><b>THE 5TH STAND</b></a></li>
+<li class="line"><a  class="right" href="https://www.facebook.com/ashwat.rajbhandari.35"><b>CREATOR</b></a></li>
+  </h1>
+  </header>
+  <div class="bridgewrapper">
+    <figure>
+      <img class="bridge" src="bridge.jpg">
+      <figcaption><p class="topic">Stamford Bridge</p></figcaption>
+</figure>
+    <p class="bridgetopic" ><br><u><strong class="only">Home of the Champions</strong></u><br>
+       Stamford Bridge is a football stadium in Fulham, adjacent to the borough of Chelsea in South West London, commonly referred to as The Bridge. It is the home of Chelsea Football Club, which competes in the Premier League, the highest division of English football.
+
+The capacity of the stadium is 40,834, making it the ninth largest venue of the 2019–20 Premier League season. The club had plans to expand capacity to 63,000 by the 2023–24 season.<br>
+
+Opened in 1877, the stadium was used by the London Athletic Club until 1905, when new owner Gus Mears founded Chelsea Football Club to occupy the ground; Chelsea have played their home games there ever since. It has undergone major changes over the years, most recently in the 1990s when it was renovated into a modern, all-seater stadium<br>
+
+Stamford Bridge has been a venue for England international matches, FA Cup Finals, FA Cup semi-finals and Charity Shield games. It has also hosted numerous other sports, such as cricket, rugby union, speedway, greyhound racing, baseball and American football. The stadium's highest official attendance is 82,905, for a league match between Chelsea and Arsenal on 12 October 1935.
+
+With the Taylor Report arising from the Hillsborough disaster being published in January 1990 and ordering all top division clubs to have all-seater stadiums in time for the 1994–95 season, Chelsea's plan for a 34,000-seat stadium at Stamford Bridge was given approval by Hammersmith and Fulham council on 19 July 1990.<br>
+
+The re-building of the stadium commenced and successive building phases during the 1990s eliminated the original running track. The construction of the East Stand some 20 years earlier had begun the process of eliminating the track. All stands, now roofed and all-seater, are immediately adjacent to the pitch. This structure captures and concentrates the noise of supporters. The pitch, the turnstiles, and the naming rights of the club are now owned by Chelsea Pitch Owners, an organisation set up to prevent the stadium from being purchased by property developers.
+
+KSS Design Group (architects) designed the complete redevelopment of Stamford Bridge Stadium and its hotels, megastore, offices and residential buildings.
+     </p>
+ </div><br>
+<div>
+<h1 class="players">Players</h1><br>
+       <div id="bg">
+<section class="bcd">
+<img class="cap" src="17.jpg" >
+<section class="p">
+           <li>Name: Mateo Kovacic</li><br>
+           <li>Born: May 6, 1994 (age 26 years), Linz, Austria</li><br>
+           <li>Height: 1.70 m</li><br>
+      <li>Career start: 2009</li><br>
+               <li>Spouse: Izabel Kovačić (m. 2017)</li><br>
+               <li>Current team: Chelsea F.C. (#17 / Midfielder)</li><br>
+               <li>Salary: 2.5 million EUR (2013)</li>
+             </section>
+</li>
+</section>
+<section class="abc">
+<img class="kep" src="1.jpg" >
+<div class="last">
+              <li>Full name: Kepa Arrizabalaga Revuelta</li><br>
+              <br>
+               <li>Height: 1.86 m</li><br>
+               <li>Nationality: Spanish</li><br>
+               <li>Born: October 3, 1994 (age 25 years), Ondarroa, Spain </li><br>
+               <li>Weight: 88 kg</li><br>
+               <li>Current teams: Chelsea F.C. (#1 / Goalkeeper)</li><br>
+               <li>Salary: 8.5 million EUR (2019)</li>
+             </div>
+</li>
+</section>
+
+<span id="dots">------------------</span><span id="more" >
+<section class="bcd">
+<img class="cap" src="7.jpg"  >
+<section class="p">
+               <li>Name: N'Golo Kante</li><br>
+               <li>Born: March 29, 1991 (age 29 years), Paris, France</li><br>
+               <li>Weight: 70 kg</li><br>
+               <li>Current teams: Chelsea F.C. (#7 / Midfielder)</li><br>
+               <li>Nationality: French, Malian</li><br>
+               <li>Dates joined: 2016</li><br>
+               <li>Salary: 10.5 million EUR (2019)</li>
+             </section>
+</li>
+</section>
+<section class="abc">
+<img class="kep" src="22.jpg" >
+<div class="last">
+  <li>Full name:Christian Pulisic </li><br>
+  <br>
+   <li>Height: 1.76 m</li><br>
+   <li>Nationality: American</li><br>
+   <li>Born: September 18, 1998 (age 21 years) United States</li><br>
+   <li>Weight: 78 kg</li><br>
+   <li>Current teams: Chelsea F.C. (#22 /Winger)</li><br>
+   <li>Salary: 8.5 million EUR (2019)</li>
+             </div>
+</li>
+</section>
+</span>
+<button id="read" onclick="read()">Show more</button> --------------------
+
+</div>
+</div>
+</div>
+
+<div>
+  <br>
+<h1 class="players">2019/20 Season Statistics</h1><br>
+   <div id="ag">
+
+          <button id="btn1" onclick="gol()"><b>Goals</button>
+          <button id="btn2" onclick="asi()"><b>Assists</button>
+          <button id="btn3" onclick="tack()"><b>Tackles</button>
+          <button id="btn4" onclick="clean()"><b>Clean Sheets</button>
+          <button id="btn5" onclick="drib()"><b>Dribbles completed</button>
+          <button id="btn" onclick="pass()"><b>Successful passes</button>
+
+            <div class="statsbg">
+<div id="gol" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div id="asi" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div id="tack" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div id="clean" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div id="drib" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div id="pass" style="height: 500px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            </div>
+   </div>
+</div>
+
+<div>
+<h1 class="final">Major Achievements</h1><br>
+<div id="lg">
+      <table style="width:100%;">
+           <tr>
+                 <th style="color:red;">Major Trophy</th>
+                 <th style="color:red;">Number of Wins</th>
+                 <th style="color:red;">Years Won</th>
+                 <th style="color:red;">Picture Of Trophy</th>
+          </tr>
+          <tr>
+              <td>Premier League</td>
+              <td>6</td>
+              <td>1954/1955,  2004/2005,  2005/2006,  2009/2010,  2014/2015,  2016/2017</td>
+                <td><button class="finale" onclick="window.open('premier.jpg');">Image</button></td>
+            </tr>
+            <tr>
+              <td>Champions League</td>
+              <td>1</td>
+              <td>2011/12</td>
+                <td><button class="finale" onclick="window.open('champions.jpg');">Image</button></td>
+            </tr>
+            <tr>
+              <td>Carabao Cup</td>
+              <td>5</td>
+              <td>	1965, 1998, 2005, 2007, 2015</td>
+                <td><button class="finale" onclick="window.open('carabao.jpg');">Image</button></td>
+            </tr>
+            <tr>
+              <td>FA Cup</td>
+              <td>8</td>
+              <td>1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018</td>
+                <td><button class="finale" onclick="window.open('FA.jpg');">Image</button></td>
+            </tr>
+            <tr>
+              <td>Europa League</td>
+              <td>2</td>
+              <td>2013, 2019</td>
+                <td><button class="finale" onclick="window.open('europa.jpg');">Image</button></td>
+            </tr>
+          </table>
+          <a href="#top" style="padding-left:50%;">Back to top of page</a>
+</div>
+</div>
+<footer>
+   <p><strong>Copyright &copy; BlueStreak Ltd.</strong></p>
+</footer>
+
+</body>
+<!----------------------------------------START OF SCRIPT----------------------------------------->
+<script>
+var i=0;
+  function read(){
+if(!i){
+  document.getElementById("more").style.display="inline";
+    document.getElementById("dots").style.display="none";
+      document.getElementById("read").innerHTML="Show less";
+      document.getElementById("bg").style.height = "720px";
+      i=1;
+}
+else{
+  document.getElementById("more").style.display="none";
+    document.getElementById("dots").style.display="inline";
+      document.getElementById("read").innerHTML="Show more";
+      document.getElementById("bg").style.height = "370px";
+      i=0;
+}
+  }
+
+  window.addEventListener("click", function(){
+var chart = new CanvasJS.Chart("gol", {
+
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "Goals (Top 5 Scorers)"
+	},
+	axisY: {
+		title: "Goals"
+	},
+	data: [{
+		type: "column",
+		dataPoints: [
+			{ y: 15, label: "Tammy Abraham" },
+			{ y: 9,  label: "Willian" },
+			{ y: 9,  label: "Christian Pulisic" },
+			{ y: 8,  label: "Olivier Giroud" },
+			{ y: 7,  label: "Mason Mount" },
+		]
+	}]
+});
+chart.render();
+
+}
+);
+
+window.addEventListener("click", function() {
+var chart = new CanvasJS.Chart("asi", {
+
+animationEnabled: true,
+theme: "light2",
+title:{
+  text: "Assists (Top 5)"
+},
+axisY: {
+  title: "Assists"
+},
+data: [{
+  type: "column",
+  dataPoints: [
+    { y: 7, label: "Willian" },
+    { y: 6,  label: "Cesar Azpilicueta" },
+    { y: 5,  label: "Hudosn Odoi" },
+    { y: 5,  label: "Mason Mount" },
+    { y: 4,  label: "Ross Barkley" },
+  ]
+}]
+});
+chart.render();
+
+}
+);
+
+window.addEventListener("click", function() {
+var chart = new CanvasJS.Chart("tack", {
+
+animationEnabled: true,
+theme: "light2",
+title:{
+  text: "Tackles (Top 5)"
+},
+axisY: {
+  title: "Tackles"
+},
+data: [{
+  type: "column",
+  dataPoints: [
+    { y: 86, label: "Cesar Azpilicueta" },
+    { y: 66,  label: "Jorginho" },
+    { y: 63,  label: "Mateo Kovacic" },
+    { y: 45,  label: "Willian" },
+    { y: 44,  label: "NGolo Kante" },
+  ]
+}]
+});
+chart.render();
+
+}
+);
+
+window.addEventListener("click", function(){
+var chart = new CanvasJS.Chart("clean", {
+
+animationEnabled: true,
+theme: "light2",
+title:{
+  text: "Clean Sheet (Top 2)"
+},
+axisY: {
+  title: "Clean Sheet"
+},
+data: [{
+  type: "column",
+  dataPoints: [
+    { y: 8, label: "Kepa Arrizabalaga" },
+    { y: 2,  label: "Willy Caballero" },
+  ]
+}]
+});
+chart.render();
+
+}
+);
+
+window.addEventListener("click", function() {
+var chart = new CanvasJS.Chart("drib", {
+
+animationEnabled: true,
+theme: "light2",
+title:{
+text: "Dribbles Completed (Top 5)"
+},
+axisY: {
+title: "Dribbles Completed"
+},
+data: [{
+type: "column",
+dataPoints: [
+  { y: 26, label: "Willian" },
+  { y: 20,  label: "Christian Pulisic" },
+  { y: 18,  label: "Mason Mount " },
+  { y: 13,  label: "Ross Barkley" },
+  { y: 12,  label: "Pedro Rodriguez" },
+]
+}]
+});
+chart.render();
+
+}
+);
+
+window.addEventListener("click", function() {
+var chart = new CanvasJS.Chart("pass", {
+
+animationEnabled: true,
+theme: "light2",
+title:{
+text: "Passes Completed (Top 5)"
+},
+axisY: {
+title: "Passes Completed"
+},
+data: [{
+type: "column",
+dataPoints: [
+  { y: 2435, label: "Cesar Azpilicueta" },
+  { y: 2257,  label: "Jorginho" },
+  { y: 2080,  label: "Kurt Zouma" },
+  { y: 1868,  label: "Mateo Kovacic" },
+  { y: 1492,  label: "Antonio Rudiger" },
+]
+}]
+});
+chart.render();
+
+}
+);
+
+  function gol(){
+    var x = document.getElementById("gol");
+    if (x.style.display === "none") {
+        document.getElementById("asi").style.display="none";
+          document.getElementById("tack").style.display="none";
+          document.getElementById("drib").style.display="none";
+            document.getElementById("pass").style.display="none";
+            document.getElementById("clean").style.display="none";
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+}
+
+function asi(){
+  var y= document.getElementById("asi");
+  if (y.style.display === "none") {
+    document.getElementById("tack").style.display="none";
+      document.getElementById("gol").style.display="none";
+      document.getElementById("drib").style.display="none";
+        document.getElementById("pass").style.display="none";
+        document.getElementById("clean").style.display="none";
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+function tack(){
+  var x = document.getElementById("tack");
+  if (x.style.display === "none") {
+    document.getElementById("asi").style.display="none";
+      document.getElementById("gol").style.display="none";
+      document.getElementById("drib").style.display="none";
+        document.getElementById("pass").style.display="none";
+        document.getElementById("clean").style.display="none";
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function clean(){
+  var x = document.getElementById("clean");
+  if (x.style.display === "none") {
+      document.getElementById("asi").style.display="none";
+        document.getElementById("tack").style.display="none";
+        document.getElementById("drib").style.display="none";
+          document.getElementById("tack").style.display="none";
+          document.getElementById("pass").style.display="none";
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function drib(){
+var y= document.getElementById("drib");
+if (y.style.display === "none") {
+  document.getElementById("tack").style.display="none";
+    document.getElementById("gol").style.display="none";
+    document.getElementById("pass").style.display="none";
+      document.getElementById("tack").style.display="none";
+      document.getElementById("clean").style.display="none";
+  y.style.display = "block";
+} else {
+  y.style.display = "none";
+}
+}
+
+function pass(){
+var x = document.getElementById("pass");
+if (x.style.display === "none") {
+  document.getElementById("asi").style.display="none";
+    document.getElementById("gol").style.display="none";
+    document.getElementById("drib").style.display="none";
+      document.getElementById("tack").style.display="none";
+      document.getElementById("clean").style.display="none";
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
+}
+</script>
+</html>
