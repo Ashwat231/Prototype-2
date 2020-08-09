@@ -1,11 +1,1 @@
-![chelsea](https://user-images.githubusercontent.com/63160552/89730500-e4e1b680-da5e-11ea-9c11-4f54920121db.gif)
-![champions](https://user-images.githubusercontent.com/63160552/89730501-e7dca700-da5e-11ea-8f65-a63694e1a622.jpg)
-![1](https://user-images.githubusercontent.com/63160552/89730506-f0cd7880-da5e-11ea-9f5c-3650b6a1777b.jpg)
-![7](https://user-images.githubusercontent.com/63160552/89730508-f32fd280-da5e-11ea-95fe-25b733ad9fb7.jpg)
-![17](https://user-images.githubusercontent.com/63160552/89730509-f32fd280-da5e-11ea-8dfc-bb6d471bf407.jpg)
-![22](https://user-images.githubusercontent.com/63160552/89730510-f460ff80-da5e-11ea-9661-8d9f36e05b12.jpg)
-![bridge](https://user-images.githubusercontent.com/63160552/89730512-f4f99600-da5e-11ea-9fd8-708ad532e352.jpg)
-![carabao](https://user-images.githubusercontent.com/63160552/89730513-f5922c80-da5e-11ea-9578-07e2d0f34192.jpg)
-![europa](https://user-images.githubusercontent.com/63160552/89730514-f62ac300-da5e-11ea-9f09-ba87673016df.jpg)
-![FA](https://user-images.githubusercontent.com/63160552/89730515-f6c35980-da5e-11ea-90d2-bafb5c29d298.jpg)
-![premier](https://user-images.githubusercontent.com/63160552/89730516-f75bf000-da5e-11ea-8c0c-ae1baaa963f1.jpg)
+
